@@ -16,7 +16,7 @@ t.test(data1, mu= 800, alternative="greater")
 t.test(data1, mu=1000, alternative="less")
 t.test(data1, mu= 900, alternative="less")
 
-# Higer variance
+# Higher variance data analysis
 hist(data2)
 mean(data2)
 sd(data1)
@@ -38,22 +38,3 @@ prop.test(n=50,  x=40, p=0.8 , alternative="greater")
 prop.test(n=50,  x=40,  p=0.75, alternative="greater")
 prop.test(n=100, x=80,  p=0.75, alternative="greater")
 prop.test(n=200, x=160, p=0.75, alternative="greater")
-
-
-
-
-
-
-
-
-
-
-
-
-
-#-----------------
-data
-
-
-
-
