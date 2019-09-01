@@ -1,4 +1,9 @@
+# Show that it doesn't matter if the data follows
+# normal distribution
+
+set.seed(123)
 data1u <- runif(100, min=0, max=1000)
+
 hist(data1u)
 mean(data1u)
 
